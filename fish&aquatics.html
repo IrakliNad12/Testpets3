@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/af6bc85f41.js"
+      crossorigin="anonymus"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./petsstyle.css" />
+    <link rel="stylesheet" href="./responsivepets.css">
+  </head>
+  <body>
+    <div class="transparent-background"></div>
+    <div class="responsive-sidebar">
+    </div>
+    <div class="cart">
+      <div class="carthead">
+        <div class="closecarticon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ffffff" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+        </svg>
+      </div>
+        <h3>Cart</h3>
+      </div>
+      <div class="cartbody">
+        <p class="emptytext">Cart is empty</p>
+      </div>
+    </div>
+    <header>
+      <section class="upHeader">
+        <a href="./index.html">
+        <div class="pawleft">
+          <div class="pawicon">
+            <svg
+              preserveAspectRatio="xMidYMid meet"
+              data-bbox="20 20 160 160"
+              viewBox="20 20 160 160"
+              height="52"
+              width="52"
+              xmlns="http://www.w3.org/2000/svg"
+              data-type="color"
+              role="img"
+              aria-labelledby="svgcid-kjzmfqkej430"
+            >
+              <defs>
+                <style>
+                  #comp-jhpvyjf2 svg [data-color="1"] {
+                    fill: #ff5f42;
+                  }
+                </style>
+              </defs>
+              <title id="svgcid-kjzmfqkej430">Homepage</title>
+              <g>
+                <path
+                  d="M100 20c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80zm0 37.621c6.175 0 11.181 5.006 11.181 11.181S106.175 79.984 100 79.984c-6.175 0-11.181-5.006-11.181-11.181S93.825 57.621 100 57.621zM53.729 85.292c0-6.175 5.006-11.181 11.181-11.181s11.181 5.006 11.181 11.181-5.006 11.181-11.181 11.181-11.181-5.006-11.181-11.181zM100 140.503c-18.399 0-33.314-6.042-33.314-18.135 0-12.094 14.915-25.661 33.314-25.661 18.398 0 33.313 13.566 33.313 25.661 0 12.094-14.915 18.135-33.313 18.135zm35.089-44.03c-6.175 0-11.181-5.006-11.181-11.181s5.006-11.181 11.181-11.181c6.175 0 11.181 5.006 11.181 11.181s-5.005 11.181-11.181 11.181z"
+                  fill="#ff5f42"
+                  data-color="1"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <div class="pawtext">
+            <p class="besties">BESTIES</p>
+            <p class="petsfavouriteplace">A Pet's Favorite Place</p>
+          </div>
+        </div>
+        </a>
+        <div class="upheaderright">
+          <svg class="hamburger-menu" xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="#000000" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+          <div class="searchpart">
+            <input type="text" class="searchinputbar" placeholder="Search..." />
+            <button class="searchbuttonabove">
+              <i class="bi bi-search" id="searchiconup"></i>
+            </button>
+          </div>
+          <div class="callus">
+            <p class="calltext">Call Us</p>
+            <p class="callnumber">123-456-7890</p>
+          </div>
+        </div>
+      </section>
+      <section class="downheader">
+        <div class="downheaderleft">
+          <ul>
+            <li><a href="./shopall.html">SHOP ALL</a></li>
+            <li><a href="./dogs.html">DOGS</a></li>
+            <li><a href="./cats.html">CATS</a></li>
+            <li><a href="./birds.html">BIRDS</a></li>
+            <li><a href="./fish&aquatics.html" class="active-navbar">FISH & AQUATICS</a></li>
+            <li><a href="./smallanimals.html">SMALL ANIMALS</a></li>
+            <li><a href="./reptiles.html">REPTILES</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+          <div class="leftheader-responsive-icons">
+            <a href="https://www.facebook.com/wix"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.youtube.com/user/Wix"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.instagram.com/wix/"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="downheaderright">
+          <a href="./login.html">
+          <div class="loginB">
+            <svg
+              data-bbox="0 0 50 50"
+              data-type="shape"
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              viewBox="0 0 50 50"
+            >
+              <g>
+                <path
+                  d="M25 48.077c-5.924 0-11.31-2.252-15.396-5.921 2.254-5.362 7.492-8.267 15.373-8.267 7.889 0 13.139 3.044 15.408 8.418-4.084 3.659-9.471 5.77-15.385 5.77m.278-35.3c4.927 0 8.611 3.812 8.611 8.878 0 5.21-3.875 9.456-8.611 9.456s-8.611-4.246-8.611-9.456c0-5.066 3.684-8.878 8.611-8.878M25 0C11.193 0 0 11.193 0 25c0 .915.056 1.816.152 2.705.032.295.091.581.133.873.085.589.173 1.176.298 1.751.073.338.169.665.256.997.135.515.273 1.027.439 1.529.114.342.243.675.37 1.01.18.476.369.945.577 1.406.149.331.308.657.472.98.225.446.463.883.714 1.313.182.312.365.619.56.922.272.423.56.832.856 1.237.207.284.41.568.629.841.325.408.671.796 1.02 1.182.22.244.432.494.662.728.405.415.833.801 1.265 1.186.173.154.329.325.507.475l.004-.011A24.886 24.886 0 0 0 25 50a24.881 24.881 0 0 0 16.069-5.861.126.126 0 0 1 .003.01c.172-.144.324-.309.49-.458.442-.392.88-.787 1.293-1.209.228-.232.437-.479.655-.72.352-.389.701-.78 1.028-1.191.218-.272.421-.556.627-.838.297-.405.587-.816.859-1.24a26.104 26.104 0 0 0 1.748-3.216c.208-.461.398-.93.579-1.406.127-.336.256-.669.369-1.012.167-.502.305-1.014.44-1.53.087-.332.183-.659.256-.996.126-.576.214-1.164.299-1.754.042-.292.101-.577.133-.872.095-.89.152-1.791.152-2.707C50 11.193 38.807 0 25 0"
+                ></path>
+              </g>
+            </svg>
+            <span class="logintext">Log In</span>
+          </div>
+        </a>
+          <div class="kalata">
+            <i class="bi bi-cart"></i>
+            <div class="numberofitems">0</div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="mainshoplanding">
+        <div class="categorytitle">
+          <h2>Fish&Aquatics</h2>
+        </div>
+        <div class="mainshopitemsandfilters">
+          <div class="filterbox">
+            <div class="filterby"><p>Filter by</p></div>
+            <div class="categorydropdowncontainer">
+            <div class="categorydropdown"><p>Category</p><p class="categoryplusminus" style="font-size: 30px; font-weight: 300;">+</p>
+            </div>
+            <div class="categorycontent short-version">
+              <ul class="fishaquatics-categorylist">
+                <li>All</li>
+                <li>Fish Aquariums</li>
+                <li>Fish Cleaning</li>
+                <li>Fish Decoration</li>
+              </ul>
+            </div>
+          </div>
+          <div class="pricedropdownwrap">
+            <div class="pricedropdown"><p>price</p><p class="priceplusminus" style="font-size: 30px; font-weight: 300;">+</p></div>
+            <div class="rangleslider">
+              <div class="sliderwrap">
+                <div class="handle1"></div>
+                <div class="slider">
+                <div class="handle2"></div> 
+              </div>
+              <div class="slidervalues">
+                  <span>$1.00</span>
+                  <span>$125.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="rightshopitemswithsortby">
+            <div class="sortbycontainer">
+              <form class="fishaquatis-filter">
+                <select name="Sort by" id="sortbydropdown">
+                  <option value="Sort by">Sort by</option>
+                  <option value="Newest">Newest</option>
+                  <option value="Price(low to high)">Price(low to high)</option>
+                  <option value="Price(high to low)">Price(high to low)</option>
+                  <option value="Name A-Z">Name A-Z</option>
+                  <option value="Name Z-A">Name Z-A</option>
+                </select>
+              </form>
+            </div>
+            <div class="shopitemscontainer fishaquatics-container">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="orangefooter">
+        <div>
+          <h4>Our Flagship Store</h4>
+          <p class="adressinorangefooter">500 Terry Francois Street <br> San Francisco, CA 94158 <br> Tel: 123-456-7890</p>
+          <u>View Stores List</u>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li>Dogs</li>
+            <li>Cats</li>
+            <li>Birds</li>
+            <li>Fish & Aquatics</li>
+            <li>Small Animals</li>
+            <li>Reptiles</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Info</h4>
+          <ul>
+            <li>Our Story</li>
+            <li>Contact</li>
+            <li>Shipping & Returns</li>
+            <li>Store Policy</li>
+            <li>Forum</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get Special Deals & Offers</h4>
+          <label for="footerinputemail">Email Address*</label>
+          <input type="text" id="footerinputemail">
+          <button>Subscribe</button>
+          <p class="thanksforsubmiting">Thanks for submitting!</p>
+          <p class="becomebesties">Become Our Bestie!</p>
+          <div class="iconsinfooter">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-instagram"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&#169 2035 by Besties. Powered and secured by <u>Wix</u></p>
+    </footer>
+    <script src="fish&aquatics.js"></script>
+    <script src="cart.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
